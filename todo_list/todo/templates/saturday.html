@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Список дел на субботу</title>
+    </head>
+    <body>
+        <h1>Мой список дел на субботу</h1>
+        <ol>
+            {% for item in todo %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ol>
+        <a href="/">Вернуться</a>
+    </body>
+</html>
